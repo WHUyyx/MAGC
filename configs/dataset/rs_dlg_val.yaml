@@ -1,0 +1,22 @@
+dataset:
+  target: dataset.codeformer_rs_val.CodeformerDataset
+  params:
+    # Path to the file list.
+    file_list: ../dataset/Synthetic-v18-45k/test/test_hr.txt
+    file_list_dlg: ../dataset/Synthetic-v18-45k/test/test_ref.txt
+    
+    out_size: 256
+    crop_type: none
+    use_hflip: False
+    
+
+
+
+data_loader:
+  batch_size: 16
+  shuffle: False
+  num_workers: 4
+  drop_last: False
+
+batch_transform:
+  target: dataset.batch_transform.IdentityBatchTransform
