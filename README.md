@@ -16,7 +16,7 @@ Official code for [Paper](https://arxiv.org/abs/2409.01935)
 - [Inference](#inference)
 - [Train](#train)
 
-## <a name="performance"></a>:eyes:Quantitative and Qualitative Compression Performance
+## <a name="performance"></a>:eyes:Compression Performance
 ### Quantitative Comparisons
 <p align="center">
     <img src="assets/visual_results/metrics.png">
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
-Please download the pretrained model from [Google Drive](https://arxiv.org/abs/2409.01935) and place it in the magc_ckpts/ckpts_stage2/ folder for inference.
+Please download the pretrained model from [Google Drive](https://drive.google.com/file/d/1_a_SNPUSton3IuZSTUZzdTDEyDk5I8Qw/view?usp=sharing) and place it in the magc_ckpts/ckpts_stage2/ folder for inference.
 
 ## <a name="dataset"></a>:climbing:Dataset
 Please access the training set and test set from [SGDM](https://github.com/wwangcece/SGDM).
